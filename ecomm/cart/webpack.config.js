@@ -18,6 +18,7 @@ module.exports = {
       exposes: {
         './cartShow': './src/index',
       },
+      shared: ['faker'],
     }),
   ],
 };
